@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>infoGOL</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Planeta Desconhecido</h1>
+        </div>
+    </header>
+    <main>
+        <section class="painel-principal">
+            <div class="eventos">
+                <h2 class="dia" id="dia"></h2>
+                <div class="campo-nome" id="campo-nome">
+                    <input type="text" class="nome-entrada" id="nome-entrada" placeholder="Infome seu nome">
+                    <button onclick="meuNome()" class="salvar-nome">Salvar</button>
+                </div>
+                <div class="conto">
+                    <p class="historia" id="historia"></p>
+                    <button class="btn3" id="btn3" onclick="proximoDia()">Descansar</button>
+                </div>
+                <div class="acoes">
+                    <button class="btn1" id="btn1" onclick="acao1()"></button>
+                    <button class="btn2" id="btn2" onclick="acao2()"></button>
+                </div>
+            </div>
+        </section>
+        <section class="personagem">
+            <div div="painel-status">
+                <div class="campo-nome-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem">Comandante</h2>
+                    <hr>
+                </div>
+                <div class="status-personagem">
+                    <hr>
+                    <p>💖 Vitalidade <span style="color: green;">60%</span></p>
+                    <p>⚡ Stamina <span style="color: green;">50%</span></p>
+                    <p>🧠 Sanidade <span style="color: orange;">40%</span></p>
+                    <hr>
+                </div>
+                <div class="mochila">
+                    <h2>Mochila</h2>
+                    <hr>
+                    <p id="mochila1"> </p>
+                    <p id="mochila2"> </p>
+                    <p id="mochila3"> </p>
+                    <p id="mochila4"> </p>
+                </div>
+            </div>
+        </section>
+        <section class="nave">
+            <div class="nome-nave">
+                <h2>Nave Yukito</h2>
+            </div>
+            <hr>
+            <div class="status-nave">
+                <hr>
+                <p>⚙ Estrutura <span style="color: red;">10%</span></p>
+                <p>⚡ Combustivel <span style="color: orange;">30%</span></p>
+                <p>🌡 Temperatura <span style="color: green;">20°</span></p>
+                <hr>
+            </div>
+            <div class="radio">
+                <h2  id="radio">Radio quebrado</h2>
+                <hr>
+                <p class="obj1" id="radio1">Condensador de Fluxo<strong><span style="color: red;"> X</span></strong></p>
+                <p class="obj2" id="radio2">Oscilador de Ondas<strong><span style="color: red;"> X</span></strong></p>
+                <p class="obj3" id="radio3">Transformador de Partículas<strong><span style="color: red;"> X</span></strong></p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+    <p>Planeta desconhecido - 2024</p>
+    <p>Desenvolvido por Adelson Ribeiro</p>
+    </footer>
+    <script src="eventos.js"></script>
+    <script src="historia.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

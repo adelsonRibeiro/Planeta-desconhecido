@@ -1,0 +1,220 @@
+/* Importa a fonte "VT323" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=VT323:wght@400;700&display=swap');
+
+/* Aplica estilo global a todos os elementos, definindo a fonte, peso, estilo e cor */
+*{
+    font-family: "VT323", monospace;
+    font-weight: 350;
+    font-style: normal;
+    color: white;
+}
+
+/* Estilos para o corpo da página, removendo margem, ajustando altura e centralizando conteúdo */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #3B2857;
+}
+
+/* Estilo do cabeçalho da página, ajustando largura, altura e cor de fundo */
+header {
+    width: 100%;
+    height: 5%;
+    background-color: #1C1428;
+    padding: 1%;
+}
+
+/* Estilos da classe "header" com alinhamento à esquerda */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* Estilos para o título principal da página */
+h1 {
+    font-size: 2rem;
+    margin-left: 1%;
+}
+
+/* Estilos para o elemento principal, ajustando tamanho e centralização */
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo do rodapé, ajustando largura, altura e cor de fundo */
+footer {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: #1C1428;
+}
+
+/* Estilos para o painel principal do jogo */
+.painel-principal {
+    padding: 5px;
+    width: 40%;
+    height: 80%;
+    background-color: #1C1428;
+    border-radius: 1rem;
+}
+
+/* Estilo do campo de entrada do nome */
+.nome-entrada {
+    width: 60%;
+    height: 2rem;
+    background-color: #cbb8e7;
+    border-right: 0;
+    color: #DDDDDD;
+}
+
+/* Estilo para o botão de salvar o nome */
+.salvar-nome {
+    font-size: 1.5rem;
+    width: 35%;
+    height: 100%;
+    background-color: #3B2857;
+    border: 1px solid #1E004B;
+    border: 1px solid #DDDDDD;
+}
+
+/* Estilos para a área de eventos */
+.eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px;
+    height: 100%;
+}
+
+/* Estilos para o texto centralizado da seção de contos */
+.conto {
+    height: 100%;
+    text-align: center;
+}
+
+/* Estilo da área de ações, ajustando o espaçamento */
+.acoes {
+    margin-top: auto; /* Empurra a div acoes para a base da div eventos */
+    margin-bottom: 20px;
+}
+
+/* Estilos para exibir o dia atual na interface */
+.dia {
+    text-align: left;
+}
+
+/* Estilo do campo de nome, inicialmente oculto */
+.campo-nome {
+    display: none;
+    margin:5%;
+}
+
+/* Estilos da história do jogo */
+.historia {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+/* Estilos do botão 1 */
+.btn1 {
+    font-size: 1.5rem;
+    width: 40%;
+    height: 3rem;
+    margin: 5px;
+    background-color: #3B2857;
+    border: 1px solid #1E004B;
+    border: 1px solid #DDDDDD;
+}
+
+/* Estilos do botão 2 */
+.btn2 {
+    font-size: 1.5rem;
+    width: 40%;
+    height: 3rem;
+    margin: 5px;
+    background-color: #3B2857;
+    border: 1px solid #1E004B;
+    border: 1px solid #DDDDDD;
+}
+
+/* Estilo para o botão 3, inicialmente oculto */
+.btn3 {
+    display: none;
+    font-size: 1.5rem;
+    width: 35%;
+    height: 3rem;
+    margin: 5px;
+    background-color: #3B2857;
+    border: 1px solid #1E004B;
+    border: 1px solid #DDDDDD;
+}
+
+/* Estilo da seção de informações do personagem */
+.personagem {
+    padding: 5px;
+    width: 25%;
+    height: 80%;
+    margin: 1%;
+    background-color: #1C1428;
+    border-radius: 1rem;
+}
+
+/* Estilo da seção de itens da mochila */
+.mochila {
+    margin-top: 20%;
+}
+
+/* Estilos para a seção de status do personagem */
+.status-personagem {
+    margin: 15%;
+    text-align: left;
+}
+
+/* Estilos para a seção de status da nave */
+.status-nave {
+    margin: 15%;
+    text-align: left;
+}
+
+/* Estilo da seção do rádio */
+.radio {
+    margin-top: 20%;
+}
+
+/* Estilos da seção da nave */
+.nave {
+    padding: 5px;
+    width: 25%;
+    height: 80%;
+    margin: 1%;
+    background-color: #1C1428;
+    border-radius: 1rem;
+}
+
+/* Estilo para o primeiro objeto da nave */
+.obj1 {
+    color: #cecece5d;
+    font-style: italic;
+}
+
+/* Estilo para o segundo objeto da nave */
+.obj2 {
+    color: #cecece5d;
+    font-style: italic;
+}
+
+/* Estilo para o terceiro objeto da nave */
+.obj3 {
+    color: #cecece5d;
+    font-style: italic;
+}
